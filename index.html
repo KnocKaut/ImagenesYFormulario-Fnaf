@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <body BACKGROUND="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxj13UET13zX1-xQquOsELmSHxLRtlIO3NoA&s">
+    <title>Historia de Five Night's at Freddy's</title>
+    <style>
+    <header>
+        <CENTER><img src="https://static.wikia.nocookie.net/triple-a-fazbear/images/1/1c/FNaFMovie_Logo_animated.gif/revision/latest/scale-to-width-down/250?cb=20231027002536" alt="Five Night's at Freddy's" width="700" height="400"></CENTER>
+    </header>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #ff6f61;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+        
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+        }
+        
+        header h4 {
+            margin: 0;
+            font-size: 24px;
+            color: #fff;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        }
+        
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-align: center;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        
+        nav ul li a {
+            color: #ff6f61;
+            text-decoration: none;
+            font-size: 18px;
+            transition: all 0.3s ease;
+        }
+        
+        nav ul li a:hover {
+            color: #fff;
+            background-color: #ff6f61;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        
+        section {
+            padding: 20px;
+            margin-bottom: 30px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        
+        h2 {
+            font-size: 28px;
+            margin-top: 0;
+            color: #ff6f61;
+        }
+        
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        th {
+            background-color: #ff6f61;
+            color: #fff;
+            font-size: 20px;
+        }
+        
+        button {
+            padding: 12px 24px;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        
+        button:hover {
+            background-color: #d63333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div id="welcome-popup" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: rgba(255, 255, 255, 0.9); padding: 20px; border: 1px solid #ccc; border-radius: 10px;">
+        <h2 style="color: #ff6f61;">¡Bienvenido a mi proyecto!</h2>
+        <button onclick="hideWelcomePopup()" style="background-color: #ff6f61;">Cerrar</button>
+    </div>
+
+    <header>
+	<H1>Five Night'S At Freddy'S
+	<br>
+	La Historia</H1>
+    </header>
+	<br>
+<CENTER><img src="https://media0.giphy.com/media/OlV6xbroi2ys5gQkTP/giphy.gif?cid=6c09b9526nliapg89yu0r6t04vpaxf0c1tl0cnrkyvkapwdg&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" width="1000" height="500" style="border: 5px solid #FF0000;"></CENTER>
+    <br>
+    <br>
+	<section>
+	<CENTER><H1>Datos Del Alumno</H1></CENTER>
+	<br>
+	<H1>Escuela:
+	<br>
+	Centro De Estudios Tecnologicos Industrial Y De Servicios N°119</H1>
+	<hr>
+	<H1>Alumno(a): Aguirre Salazar Michel Guillermo</H1>
+	<hr>
+	<H1>Materia: Construye Paginas Web</H1>
+	<hr>
+	<H1>Grupo: 4°CPM</H1>
+	<hr>
+	<H1>Maestro(a): Petra Rodriguez Astudillo</H1>
+	<hr>
+	</section>
+    <br>
+<selection>
+	<h2>Formulario Sobre Five Night'S At Freddys</h2>
+<CENTER><section>
+    <h2>¡Cuestionarios!</h2>
+    <form id="questionnaireForm" onsubmit="return showThankYouMessage()">
+    <label for="name">Nombre:</label><br>
+    <input type="text" id="name" name="name" style="padding: 10px; border-radius: 5px;"><br><br>
+    <label for="question1">1. Quien es el personaje principal de Five Night'S At Freddy'S 3?</label><br>
+    <input type="text" id="question1" name="question1" style="padding: 10px; border-radius: 5px;"><br><br>
+    <label for="question2">2. En que año sucede Five Night'S At Freddy'S 4?</label><br>
+    <input type="text" id="question2" name="question2" style="padding: 10px; border-radius: 5px;"><br><br>
+    <label for="question3">3. ¿Qué animal representa Foxy El Pirata ?</label><br>
+    <input type="text" id="question3" name="question3" style="padding: 10px; border-radius: 5px;"><br><br>
+    <label for="question4">4. Quien es Shadow Freddy?</label><br>
+    <input type="text" id="question4" name="question4" style="padding: 10px; border-radius: 5px;"><br><br>
+        <button type="button" style="background-color: #4caf50;" onclick="showThankYouMessage()">Enviar</button>
+        <button type="button" style="background-color: #f44336;" onclick="showErrorMessage()">Cerrar</button>
+    </form>
+</section></CENTER>
+</selection>
+<script>
+    function showThankYouMessage() {
+        alert("¡Gracias por contestar el cuestionario!");
+        return true;
+    }
+
+    function showErrorMessage() {
+        alert("¡Tienes que contestar el cuestionario!");
+    }
+</script>
+	<br>
+	<br>
+<selection
+	<selection>
+	<section>
+		<tt><i><h2>A Continuacion Imagenes Sobre Five Night'S At Freddy'S</h2></tt></i>
+		<hr>
+	<section>
+	<br>
+	<h1>Five Night'S At Freddy'S 1</h1>
+	<img align="left" src="https://steamuserimages-a.akamaihd.net/ugc/956336446312642888/D6972D38F1E2D4C8CEF601893549FDC283E9A4EB/?imw=512&imh=288&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true" width="200" height="200" style="border: 5px solid #FF5733;"></CENTER>
+	<br>
+	<br>
+	<br>
+	<h1>Five Night'S At Freddy'S 2</h1>
+	<img align="left" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/30bf3b20-569f-47f3-8744-f157beb8149a/dftzyay-24b52a60-d44a-43fb-8f44-6efd8752a9b1.png/v1/fill/w_1280,h_640,q_80,strp/fnaf_2___remastered___pack_release_by_ubuntutu_dftzyay-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjQwIiwicGF0aCI6IlwvZlwvMzBiZjNiMjAtNTY5Zi00N2YzLTg3NDQtZjE1N2JlYjgxNDlhXC9kZnR6eWF5LTI0YjUyYTYwLWQ0NGEtNDNmYi04ZjQ0LTZlZmQ4NzUyYTliMS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.fn-VpNHOClHmCQg87rvKHKvh9C_fZfbJTVaiY5WB9NE" width="200" height="200" style="border: 5px solid #FF5733;"></CENTER>
+	<br>
+	<br>
+	<br>
+	<h1>Five Night'S At Freddy'S 3</h1>
+	<img align="left" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUrtBik72MPFDeyhEN7TMfXwYX-VFMm2_Gdw&s" width="200" height="200" style="border: 5px solid #FF5733;">
+	<br>
+	<br>
+	<br>
+	<h1>Five Night'S At Freddy'S 4</h1>
+	<img align="left" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlreAGqHatjmSh6qnd7eS_lXkraKp18ZUhjg&s" width="200" height="200" style="border: 5px solid #FF5733;">
+	<br>
+	<br>
+	<br>
+	<h1>Five Night'S At Freddy'S 5 (Sister Location)</h1>
+	<img align="left" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT2cwaPcebdiO2L181d6Koe8UMtiDe9YowbQ&s" width="200" height="200" style="border: 5px solid #FF5733;">
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<CENTER><img align="left" src="https://steamuserimages-a.akamaihd.net/ugc/932693183051367958/4D95EFE91891F4164EFEDD0415CF03DE2A545E01/?imw=1024&imh=576&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true" width="1200" height="600" style="border: 5px solid #FF5733;"></CENTER>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	</section>
+	</section>
+</selection>
+
+    
+</body>
+</html>
